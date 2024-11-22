@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className='navBar'>
+    <div className='navbar'>
       <div className="left">
         <Link to="/" style={{textDecoration:"none"}}>
           <span>gathering</span>
@@ -30,7 +30,7 @@ const NavBar = () => {
         <EmailOutlinedIcon />
         <NotificationsOutilinedIcon />
         <div className="user">
-          {/* <img src="" alt="" /> */}
+          <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" />
           <span>Jonh Doe</span>
         </div>
       </div>
