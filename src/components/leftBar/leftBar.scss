@@ -1,0 +1,60 @@
+.leftBar {
+  flex: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F8DC25;
+
+  .container {
+    padding: 20px;
+
+    hr {
+      margin: 20px 0px;
+      border: none;
+      height: 2px;
+      background-color: black;
+    }
+
+    .menu {
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      span {
+        font-size: 12px
+      }
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        span {
+          font-size: 14px;
+          font-weight: 600;
+        }
+
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 30px;
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
