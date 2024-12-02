@@ -1,11 +1,11 @@
 import "./leftBar.scss"
-import Friends from "../../assets/sgvfriend.svg";
+import Friends from "../../assets/friend.png";
 import Groups from "../../assets/2.png";
 import Market from "../../assets/3.png";
 import Watch from "../../assets/4.png";
 import Memories from "../../assets/5.png";
 import Events from "../../assets/6.png";
-import Gaming from "../../assets/svggames.svg";
+import Gaming from "../../assets/7.png";
 import Gallery from "../../assets/8.png";
 import Videos from "../../assets/9.png";
 import Messages from "../../assets/10.png";

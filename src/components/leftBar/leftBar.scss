@@ -4,7 +4,7 @@
   @include themify($themes) {
     flex: 2;
     position: sticky;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     background-color: themed("leftbar");
     top: 70px;
     height: calc(100vh - 70px);
@@ -16,7 +16,7 @@
     }
 
     .container {
-      padding: 30px;
+      padding: 25px;
 
       hr {
         margin: 20px 0px;
@@ -38,17 +38,17 @@
         .user {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 20px;
 
           img {
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             object-fit: cover;
           }
 
           span {
-            font-size: 17px;
+            font-size: 19px;
             font-weight: 700;
           }
 
@@ -57,7 +57,7 @@
         .item {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 20px;
 
           img {
             width: 40px;
@@ -65,7 +65,7 @@
           }
 
           span {
-            font-size: 17px;
+            font-size: 19px;
             font-weight: 700;
           }
         }
