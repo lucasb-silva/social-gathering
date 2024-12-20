@@ -1,17 +1,17 @@
-@import "../../style.scss";
+@use "../../style";
 
 .navbar {
-  @include themify($themes) {
+  @include style.themify(style.$themes) {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     height: 50px;
     //border-bottom: 1px solid lightgrey;
-    background-color: themed("nav");
+    background-color: style.themed("nav");
     position: sticky;
     top: 0;
-    color: themed("textColor");
+    color: style.themed("textColor");
     z-index: 999;
 
     .left {
@@ -22,14 +22,14 @@
       span {
         font-weight: bold;
         font-size: 25px;
-        color: themed("logo");
+        color: style.themed("logo");
       }
 
       .search {
         display: flex;
         align-items: center;
         gap: 10px;
-        border: 1px solid themed("border");
+        border: 1px solid style.themed("border");
         border-radius: 5px;
         padding: 5px;
 
@@ -37,7 +37,7 @@
           border: none;
           width: 500px;
           background-color: transparent;
-          color: themed("textColor");
+          color: style.themed("textColor");
         }
 
         input:focus {
@@ -45,12 +45,12 @@
         }
 
         input::placeholder{
-          color: themed("border");
+          color: style.themed("border");
         }
       }      
 
       .search:focus-within {
-        border: 2px solid themed("border");
+        border: 2px solid style.themed("border");
       }
     }
 

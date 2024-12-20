@@ -1,15 +1,15 @@
-@import "../../style.scss";
+@use "../../style";
 
 .leftBar {
-  @include themify($themes) {
+  @include style.themify(style.$themes) {
     flex: 2;
     position: sticky;
     font-family: monospace;
-    background-color: themed("leftbar");
+    background-color: style.themed("leftbar");
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
-    color: themed("textColor");
+    color: style.themed("textColor");
 
     &::-webkit-scrollbar {
       display: none;
@@ -61,7 +61,7 @@
 
           img {
             width: 40px;
-            filter: drop-shadow(2px 4px 2px themed("iconBlur"));
+            filter: drop-shadow(2px 4px 2px style.themed("iconBlur"));
           }
 
           span {
