@@ -4,7 +4,7 @@
   @include style.themify(style.$themes) {
     flex: 2;
     position: sticky;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
     background-color: style.themed("leftbar");
     top: 70px;
     height: calc(100vh - 70px);

@@ -5,6 +5,7 @@ $theme-map: null;
 $themes: (
   light:(
     textColor: #000,
+    textColor2: #000,
     bg: #fff,
     logo: #000,
     nav: #F8F32B,
@@ -16,6 +17,7 @@ $themes: (
   ),
   dark:(
     textColor: #F8DC25,
+    textColor2: lightgray,
     bg: #222,
     logo: #F8F32B,
     nav: #111,
